@@ -51,8 +51,7 @@ in a more automated way, making direct use of libdvdcss.
 If it matters for your uses, it's also possible to extract all of the
 audio channels on the DVD unaltered, by creating your own Audio
 Profile. You can make a new profile and select Audio codec -> Audio ->
-Keep original audio track. Under Encapsulation select WAV, but maybe
-FLAC would work too. This way, the audio will be output in possibly 5
-or 6 different channels, if the DVD contains that data, which is
-useful for isolating certain parts of the audio in some cases, like
-the dialog, music, or sound effects.
+Keep original audio track. Under Encapsulation select WAV. This way,
+the audio will be output in possibly 5 or 6 different channels, if
+the DVD contains that data, which is useful for isolating certain parts
+of the audio in some cases, like the dialog, music, or sound effects.
