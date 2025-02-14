@@ -9,5 +9,5 @@ do
     echo "Processing $f file..."
     BASENAME=`basename $f`
     OUTPUT_FILE="$BASENAME.wav"
-    ffmpeg -i "$f" -vn -acodec copy $OUTPUT_FILE
+    ffmpeg -i "$f" -vn -c:a copy $OUTPUT_FILE
 done
